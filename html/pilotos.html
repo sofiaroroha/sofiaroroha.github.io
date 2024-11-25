@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilotos de Fórmula 1</title>
+    
+    <!-- Vinculando el archivo CSS de Bootstrap -->
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Hoja de estilo personalizada -->
+    <link href="../css/styles.css" rel="stylesheet">
+   
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><strong>Fórmula 1</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="../html/circuitos.html">Circuitos</a></li>
+            <li class="nav-item active"><a class="nav-link" href="../html/pilotos.html">Pilotos</a></li>
+            <li class="nav-item"><a class="nav-link" href="../html/escuderias.html">Escuderías</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+		<h1 class="display-4"><strong>Reyes del asfalto</strong></h1>
+        <p class="lead">Conoce a los mejores pilotos que han marcado la historia de la Fórmula 1.</p>
+        <hr class="my-4">
+        <p>Estos pilotos son los mejores en sus carreras, algunos con múltiples campeonatos y victorias en su haber. Los tres pilotos de Fórmula 1 más destacados en la actualidad son Max Verstappen, Lewis Hamilton y Charles Leclerc. Cada uno de ellos ha dejado una huella significativa en la historia de la F1 gracias a sus habilidades excepcionales, logros y personalidades dentro y fuera de la pista. Aquí conocerás una descripción general de cada uno:</p>
+    </div>
+
+    <!-- Cards con información de pilotos -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../medios/images/LH.jpg" class="card-img-top" alt="Lewis Hamilton">
+                    <div class="card-body">
+                        <h5 class="card-title">Lewis Hamilton</h5>
+                        <p class="card-text">Campeón mundial de la Fórmula 1, conocido por su increíble habilidad y consistencia en la pista. Es el veterano dominante que ha hecho historia en la F1, ganando múltiples campeonatos y usando su influencia fuera de la pista para abogar por la justicia social y el medio ambiente.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../medios/images/MV.jpg" class="card-img-top" alt="Max Verstappen">
+                    <div class="card-body">
+                        <h5 class="card-title">Max Verstappen</h5>
+                        <p class="card-text">Piloto joven de Red Bull Racing, conocido por su agresividad y capacidad para ganar en condiciones difíciles. Max Verstappen es el joven campeón agresivo que ha llevado a Red Bull Racing a la cima con su estilo de conducción audaz y su mentalidad ganadora.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../medios/images/CL.jpg" class="card-img-top" alt="Charles Leclerc">
+                    <div class="card-body">
+                        <h5 class="card-title">Charles Leclerc</h5>
+                        <p class="card-text">Piloto de Ferrari, considerado uno de los talentos más prometedores de la Fórmula 1.  Charles Leclerc es el talento emergente que Ferrari espera que se convierta en el próximo campeón mundial, destacándose por su consistencia y habilidades técnicas dentro de la pista.</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	 <!-- Video insertado debajo de las tarjetas -->
+    <div class="container my-5">
+    <h3 class="text-center mb-4"><strong>Video Destacado</strong></h3>
+    <!-- Aplicamos la clase .video-container al contenedor del video -->
+    <div class="video-container">
+        <div class="embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item" controls autoplay>
+                <source src="../medios/video/videoplayback.mp4" type="video/mp4">
+                Tu navegador no soporta el formato de video.
+            </video>
+        </div>
+    </div>
+</div>
+	
+    <!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+      <p>&copy; 2024 Fórmula 1. Todos los derechos reservados. <a href="https://www.formula1.com/" target="_blank" class="text-white">Visita el sitio oficial</a></p>
+    </footer>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

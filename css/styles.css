@@ -1,0 +1,81 @@
+/* Estilo para los botones de más información */
+.btn-primary {
+    background-color: #ffbc80; /* Naranja muy clarito */
+    border-color: #ffbc80; /* Coincide con el color de fondo */
+}
+
+.btn-primary:hover {
+    background-color: #ff9e55; /* Naranja un poco más oscuro al pasar el ratón */
+    border-color: #ff9e55; /* Coincide con el color de fondo al pasar el ratón */
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 188, 128, 0.5); /* Efecto de foco */
+}
+
+/* Estilo cuando el botón está en estado activo (presionado) */
+.btn-primary:active {
+    background-color: #ff6666 !important; /* Rojo clarito cuando se presiona */
+    border-color: #ff6666 !important; /* Coincide con el color de fondo cuando se presiona */
+}
+
+/* Los botones no se vean con bordes grandes */
+.btn-primary {
+    text-transform: none; /* Elimina la transformación de texto por defecto */
+}
+
+
+
+/* Cambia el color del texto 'Fórmula 1' en la navbar */
+.navbar-brand {
+    color: red !important; /* Asegura que el color se aplique incluso si hay otras reglas */
+}
+
+/* Cambia el color del texto de los enlaces en la barra de navegación cuando se pasa el mouse */
+.navbar-nav .nav-link:hover {
+    color: orange !important; /* Cambia el color de los enlaces al pasar el ratón */
+}
+
+/* Efecto hover con animación */
+.navbar-nav .nav-link:hover {
+    color: orange !important; /* Cambiar el color a rojo */
+    transform: scale(1.1); /* Escalar el enlace ligeramente al pasar el ratón */
+}
+
+/* Agregar una línea debajo del enlace que aparece con animación */
+.navbar-nav .nav-link:before {
+    content: ''; /* Crear un contenido vacío */
+    position: absolute;
+    width: 0;
+    height: 2px; /* Altura de la línea */
+    bottom: 0;
+    left: 50%;
+    background-color: red; /* Color de la línea */
+    transition: width 0.3s ease, left 0.3s ease; /* Transición de la línea */
+}
+
+/* La línea se expande */
+.navbar-nav .nav-link:hover:before {
+    width: 100%; /* La línea se expande completamente */
+    left: 0; /* Centrado de la línea */
+}
+
+.video-container, {
+    width: 70%; 
+    margin: 0 auto;
+    max-width: 800px; 
+}
+
+
+.video-container {
+    width: 80%; 
+    max-width: 600px; 
+    margin: 0 auto;  
+    display: block;
+}
+
+
+.video-container video {
+    width: 100%;
+    height: auto;  
+}
